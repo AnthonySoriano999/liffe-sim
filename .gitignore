@@ -1,0 +1,36 @@
+# Unity generated
+Library/
+Temp/
+Obj/
+Build/
+Builds/
+Logs/
+UserSettings/
+MemoryCaptures/
+
+# Visual Studio / Rider / VS Code
+.vs/
+.idea/
+*.csproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Unity autosave/recovery
+Assets/_Recovery/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Asset meta backups
+*.tmp
+crashlytics-build.properties
