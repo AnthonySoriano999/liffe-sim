@@ -2,17 +2,21 @@ using UnityEngine;
 
 public class CreatureVision : MonoBehaviour
 {
-    [SerializeField] private float visionRadius = 8f;
+    [SerializeField] private float visionRadius = 10f;
 
     public WorldEntity NearestFood { get; private set; }
     public WorldEntity NearestWater { get; private set; }
     public WorldEntity NearestMate { get; private set; }
 
     private CreatureReproduction ownReproduction;
+    private CreatureGenetics genetics;
+
+    public float EffectiveVisionRadius => genetics != null ? genetics.VisionRange : visionRadius;
 
     private void Awake()
     {
         ownReproduction = GetComponent<CreatureReproduction>();
+        genetics = GetComponent<CreatureGenetics>();
     }
 
     private void Update()
@@ -30,7 +34,7 @@ public class CreatureVision : MonoBehaviour
         float nearestWaterDist = float.MaxValue;
         float nearestMateDist = float.MaxValue;
 
-        Collider2D[] hits = Physics2D.OverlapCircleAll(transform.position, visionRadius);
+        Collider2D[] hits = Physics2D.OverlapCircleAll(transform.position, EffectiveVisionRadius);
 
         foreach (Collider2D hit in hits)
         {
@@ -61,7 +65,7 @@ public class CreatureVision : MonoBehaviour
                     break;
 
                 case WorldEntityType.Mate:
-                    if (distance < nearestMateDist && IsOppositeGender(entity) && !IsDead(entity))
+                    if (distance < nearestMateDist && IsOppositeGender(entity) && !IsDead(entity) && IsAdultStage(entity))
                     {
                         nearestMateDist = distance;
                         NearestMate = entity;
@@ -88,9 +92,15 @@ public class CreatureVision : MonoBehaviour
         return otherHealth != null && otherHealth.IsDead;
     }
 
+    private bool IsAdultStage(WorldEntity entity)
+    {
+        CreatureAge otherAge = entity.GetComponent<CreatureAge>();
+        return otherAge == null || otherAge.CurrentStage == CreatureAge.Stage.Adult;
+    }
+
     private void OnDrawGizmosSelected()
     {
         Gizmos.color = new Color(0f, 1f, 1f, 0.5f);
-        Gizmos.DrawWireSphere(transform.position, visionRadius);
+        Gizmos.DrawWireSphere(transform.position, EffectiveVisionRadius);
     }
 }

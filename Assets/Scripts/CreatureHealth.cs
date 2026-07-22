@@ -3,16 +3,19 @@ using UnityEngine;
 public class CreatureHealth : MonoBehaviour
 {
     [SerializeField] private float maxHealth = 100f;
-    [SerializeField] private float starvationDamagePerSecond = 3f;
-    [SerializeField] private float dehydrationDamagePerSecond = 3f;
+    [SerializeField] private float starvationDamagePerSecond = 2f;
+    [SerializeField] private float dehydrationDamagePerSecond = 2f;
     [SerializeField] private Color corpseColor = new Color(0.4f, 0.4f, 0.4f, 1f);
+    [SerializeField] private float corpseLifetime = 10f;
 
     public float MaxHealth => maxHealth;
     public float Health { get; private set; }
     public bool IsDead { get; private set; }
+    public string DeathReason { get; private set; } = "";
 
     private CreatureStats stats;
     private SpriteRenderer spriteRenderer;
+    private float corpseTimer;
 
     private void Awake()
     {
@@ -27,7 +30,17 @@ public class CreatureHealth : MonoBehaviour
 
     private void Update()
     {
-        if (IsDead || stats == null)
+        if (IsDead)
+        {
+            corpseTimer -= Time.deltaTime;
+            if (corpseTimer <= 0f)
+            {
+                Destroy(gameObject);
+            }
+            return;
+        }
+
+        if (stats == null)
         {
             return;
         }
@@ -50,11 +63,14 @@ public class CreatureHealth : MonoBehaviour
         Health = Mathf.Max(0f, Health - damage * Time.deltaTime);
         if (Health <= 0f)
         {
-            Die();
+            bool starving = stats.Food <= 0f;
+            bool dehydrated = stats.Water <= 0f;
+            string reason = starving && dehydrated ? "starvation and dehydration" : starving ? "starvation" : "dehydration";
+            Die(reason);
         }
     }
 
-    public void Die()
+    public void Die(string reason = "unknown")
     {
         if (IsDead)
         {
@@ -62,6 +78,8 @@ public class CreatureHealth : MonoBehaviour
         }
 
         IsDead = true;
+        DeathReason = reason;
+        corpseTimer = corpseLifetime;
 
         SetEnabled<CreatureWanderer>(false);
         SetEnabled<CreatureVision>(false);

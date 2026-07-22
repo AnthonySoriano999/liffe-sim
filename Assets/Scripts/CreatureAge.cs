@@ -19,6 +19,7 @@ public class CreatureAge : MonoBehaviour
     public Stage CurrentStage { get; private set; }
     public bool IsChild => CurrentStage == Stage.Baby || CurrentStage == Stage.Juvenile;
     public Transform Parent { get; set; }
+    public float Age => age;
 
     private float age;
     private Sprite adultSprite;
@@ -61,7 +62,7 @@ public class CreatureAge : MonoBehaviour
         float deathAge = babyDuration + juvenileDuration + adultDuration + oldDuration;
         if (age >= deathAge && health != null)
         {
-            health.Die();
+            health.Die("old age");
         }
     }
 

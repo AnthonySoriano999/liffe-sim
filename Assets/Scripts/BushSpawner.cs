@@ -4,8 +4,8 @@ using System.Collections.Generic;
 public class BushSpawner : MonoBehaviour
 {
     [SerializeField] private GameObject foodPrefab;
-    [SerializeField] private float spawnInterval = 5f;
-    [SerializeField] private int maxFood = 3;
+    [SerializeField] private float spawnInterval = 3f;
+    [SerializeField] private int maxFood = 5;
     [SerializeField] private float spawnRadius = 1.5f;
 
     private readonly List<GameObject> spawnedFood = new List<GameObject>();

@@ -108,6 +108,45 @@ public static class UIFactory
         return slider;
     }
 
+    public static RectTransform CreateHBox(Transform parent, string name, float spacing)
+    {
+        var go = new GameObject(name, typeof(RectTransform), typeof(HorizontalLayoutGroup), typeof(ContentSizeFitter));
+        go.transform.SetParent(parent, false);
+
+        var layout = go.GetComponent<HorizontalLayoutGroup>();
+        layout.spacing = spacing;
+        layout.childAlignment = TextAnchor.MiddleCenter;
+        layout.childControlWidth = false;
+        layout.childControlHeight = false;
+        layout.childForceExpandWidth = false;
+        layout.childForceExpandHeight = false;
+
+        var fitter = go.GetComponent<ContentSizeFitter>();
+        fitter.verticalFit = ContentSizeFitter.FitMode.PreferredSize;
+        fitter.horizontalFit = ContentSizeFitter.FitMode.PreferredSize;
+
+        return go.GetComponent<RectTransform>();
+    }
+
+    public static Button CreateButton(Transform parent, string label, Vector2 size, System.Action onClick)
+    {
+        var go = new GameObject(label + " Button", typeof(RectTransform));
+        go.transform.SetParent(parent, false);
+        go.GetComponent<RectTransform>().sizeDelta = size;
+
+        var image = go.AddComponent<Image>();
+        image.color = new Color(0.18f, 0.18f, 0.22f, 0.95f);
+
+        var button = go.AddComponent<Button>();
+        button.targetGraphic = image;
+        button.onClick.AddListener(() => onClick());
+
+        var text = CreateText(go.transform, label, 14, TextAnchor.MiddleCenter, size);
+        StretchFull(text.GetComponent<RectTransform>());
+
+        return button;
+    }
+
     public static void StretchFull(RectTransform rt)
     {
         rt.anchorMin = Vector2.zero;

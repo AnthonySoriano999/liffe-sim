@@ -1,0 +1,2734 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.3/staging' branch; Version is '6000.3.3f1 (ef04196de0d6) revision 15664153'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Bando" at "2026-07-20T05:43:42.1959736Z"
+OS: 'Windows 11  (10.0.26200) 64bit Core' Language: 'en' Physical Memory: 16305 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+Date: 2026-07-20T05:43:42Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.3.3f1\Editor\Unity.exe
+-batchmode
+-nographics
+-projectPath
+C:/Users/Bando/Documents/UnityProjects/liffe sim
+-executeMethod
+SimulationHarness.Run
+-logFile
+C:/Users/Bando/Documents/UnityProjects/liffe sim/simlog.txt
+Successfully changed project path to: C:/Users/Bando/Documents/UnityProjects/liffe sim
+C:/Users/Bando/Documents/UnityProjects/liffe sim
+DisplayDialog: Recovering Scene Backups Scene backups from a previous Editor session have been detected. Your scene might have been backed up when an Editor instance did not close correctly. 
+
+Do you want to copy and preserve these backups in Assets/_Recovery/?
+This should not be called in batch mode.
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+Player connection [15116]  Target information:
+
+Player connection [15116]  * "[IP] 192.168.1.95 [Port] 55504 [Flags] 2 [Guid] 3179083822 [EditorId] 3179083822 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-EIE5CGJ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [15116] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [15116] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Package Manager] Connected to IPC stream "Upm-18124" after 0.4 seconds.
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              d1a2966dea204d91a183ae7097f5b4c1
+  Correlation Id:          5f635ec9237df1bec061078b4dd91817
+  External correlation Id: 5283985517314268995
+  Machine Id:              ccSPjchxnd0lwTIhsB735sljG30=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Bando" (connect: 0.00s, validation: 0.00s, handshake: 1.75s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Bando-notifications" at "2026-07-20T05:43:43.945787Z"
+[Licensing::Module] Error: Access token is unavailable; failed to update
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 2474988609222-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.00
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Licensing Background thread has ended after 1.76s
+[Licensing::Module] Licensing is initialized (took 1.14s).
+[Licensing::Client] Successfully resolved entitlement details
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Artifact Garbage Collection - Removed 6 unused hashed content files
+Refreshing native plugins compatible for Editor in 0.71 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.3.3f1 (ef04196de0d6)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.3f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Bando/Documents/UnityProjects/liffe sim/Assets
+Forcing GfxDevice: Null
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+NullGfxDevice:
+    Version:  NULL 1.0 [1.0]
+    Renderer: Null Device
+    Vendor:   Unity Technologies
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.3f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.3f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56124
+Using cacheserver namespaces - metadata:defaultmetadata, artifacts:defaultartifacts
+Using cacheserver namespaces - metadata:defaultmetadata, artifacts:defaultartifacts
+ImportWorker Server TCP listen port: 0
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.3f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003791 seconds.
+- Loaded All Assemblies, in  0.562 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.520 seconds
+Domain Reload Profiling: 1076ms
+	BeginReloadAssembly (192ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (13ms)
+	RebuildCommonClasses (49ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (64ms)
+	LoadAllAssembliesAndSetupDomain (234ms)
+		LoadAssemblies (174ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (230ms)
+			TypeCache.Refresh (227ms)
+				TypeCache.ScanAssembly (209ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (520ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (468ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (67ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (111ms)
+			ProcessInitializeOnLoadAttributes (191ms)
+			ProcessInitializeOnLoadMethodAttributes (95ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+[Licensing::Client] Successfully resolved entitlement details
+Application.AssetDatabase Initial Refresh Start
+Package Manager log level set to [2]
+[Package Manager] Restoring resolved packages state from cache
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Registered 65 packages:
+  Packages from [https://packages.unity.com]:
+    com.unity.2d.animation@13.0.2 (location: C:\Users\Bando\Documents\UnityProjects\liffe sim\Library\PackageCache\com.unity.2d.animation@3c53dae92956)
+    com.unity.2d.aseprite@3.0.1 (location: C:\Users\Bando\Documents\UnityProjects\liffe sim\Library\PackageCache\com.unity.2d.aseprite@809e3a168ff7)
+    com.unity.2d.psdimporter@12.0.1 (location: C:\Users\Bando\Documents\UnityProjects\liffe sim\Library\PackageCache\com.unity.2d.psdimporter@9abe0f7cac7e)
+    com.unity.2d.spriteshape@13.0.0 (location: C:\Users\Bando\Documents\UnityProjects\liffe sim\Library\PackageCache\com.unity.2d.spriteshape@0738bab11647)
+    com.unity.2d.tilemap.extras@6.0.1 (location: C:\Users\Bando\Documents\UnityProjects\liffe sim\Library\PackageCache\com.unity.2d.tilemap.extras@3dde84bf3867)
+    com.unity.2d.tooling@1.0.0 (location: C:\Users\Bando\Documents\UnityProjects\liffe sim\Library\PackageCache\com.unity.2d.tooling@55ff0338cdce)
+    com.unity.collab-proxy@2.10.2 (location: C:\Users\Bando\Documents\UnityProjects\liffe sim\Library\PackageCache\com.unity.collab-proxy@3351acaba9c9)
+    com.unity.ide.rider@3.0.38 (location: C:\Users\Bando\Documents\UnityProjects\liffe sim\Library\PackageCache\com.unity.ide.rider@1f60b3138684)
+    com.unity.ide.visualstudio@2.0.25 (location: C:\Users\Bando\Documents\UnityProjects\liffe sim\Library\PackageCache\com.unity.ide.visualstudio@74aa435fc4bb)
+    com.unity.inputsystem@1.17.0 (location: C:\Users\Bando\Documents\UnityProjects\liffe sim\Library\PackageCache\com.unity.inputsystem@02433b2481ab)
+    com.unity.timeline@1.8.10 (location: C:\Users\Bando\Documents\UnityProjects\liffe sim\Library\PackageCache\com.unity.timeline@7f8b2fb101b6)
+    com.unity.visualscripting@1.9.9 (location: C:\Users\Bando\Documents\UnityProjects\liffe sim\Library\PackageCache\com.unity.visualscripting@191c0d7e3b69)
+    com.unity.2d.common@12.0.1 (location: C:\Users\Bando\Documents\UnityProjects\liffe sim\Library\PackageCache\com.unity.2d.common@51e9484895c4)
+    com.unity.mathematics@1.3.3 (location: C:\Users\Bando\Documents\UnityProjects\liffe sim\Library\PackageCache\com.unity.mathematics@19a9377c4ffa)
+    com.unity.collections@2.6.2 (location: C:\Users\Bando\Documents\UnityProjects\liffe sim\Library\PackageCache\com.unity.collections@aea9d3bd5e19)
+    com.unity.searcher@4.9.4 (location: C:\Users\Bando\Documents\UnityProjects\liffe sim\Library\PackageCache\com.unity.searcher@d45a78918735)
+    com.unity.burst@1.8.27 (location: C:\Users\Bando\Documents\UnityProjects\liffe sim\Library\PackageCache\com.unity.burst@973857688024)
+    com.unity.nuget.mono-cecil@1.11.6 (location: C:\Users\Bando\Documents\UnityProjects\liffe sim\Library\PackageCache\com.unity.nuget.mono-cecil@ecb9724e46ff)
+    com.unity.test-framework.performance@3.2.0 (location: C:\Users\Bando\Documents\UnityProjects\liffe sim\Library\PackageCache\com.unity.test-framework.performance@0840f58e4562)
+  Built-in packages:
+    com.unity.2d.sprite@1.0.0 (location: C:\Users\Bando\Documents\UnityProjects\liffe sim\Library\PackageCache\com.unity.2d.sprite@82f01c8c75ca)
+    com.unity.2d.tilemap@1.0.0 (location: C:\Users\Bando\Documents\UnityProjects\liffe sim\Library\PackageCache\com.unity.2d.tilemap@d1f73c185ae9)
+    com.unity.multiplayer.center@1.0.1 (location: C:\Users\Bando\Documents\UnityProjects\liffe sim\Library\PackageCache\com.unity.multiplayer.center@f01f4ba8d00a)
+    com.unity.render-pipelines.universal@17.3.0 (location: C:\Users\Bando\Documents\UnityProjects\liffe sim\Library\PackageCache\com.unity.render-pipelines.universal@f70afd0d2146)
+    com.unity.test-framework@1.6.0 (location: C:\Users\Bando\Documents\UnityProjects\liffe sim\Library\PackageCache\com.unity.test-framework@0b7a23ab2e1d)
+    com.unity.ugui@2.0.0 (location: C:\Users\Bando\Documents\UnityProjects\liffe sim\Library\PackageCache\com.unity.ugui@8873725e650d)
+    com.unity.modules.accessibility@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.accessibility)
+    com.unity.modules.adaptiveperformance@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.adaptiveperformance)
+    com.unity.modules.ai@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.ai)
+    com.unity.modules.androidjni@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.androidjni)
+    com.unity.modules.animation@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.animation)
+    com.unity.modules.assetbundle@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.assetbundle)
+    com.unity.modules.audio@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.audio)
+    com.unity.modules.cloth@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.cloth)
+    com.unity.modules.director@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.director)
+    com.unity.modules.imageconversion@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.imageconversion)
+    com.unity.modules.imgui@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.imgui)
+    com.unity.modules.jsonserialize@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.jsonserialize)
+    com.unity.modules.particlesystem@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.particlesystem)
+    com.unity.modules.physics@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.physics)
+    com.unity.modules.physics2d@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.physics2d)
+    com.unity.modules.screencapture@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.screencapture)
+    com.unity.modules.terrain@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.terrain)
+    com.unity.modules.terrainphysics@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.terrainphysics)
+    com.unity.modules.tilemap@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.tilemap)
+    com.unity.modules.ui@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.ui)
+    com.unity.modules.uielements@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.uielements)
+    com.unity.modules.umbra@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.umbra)
+    com.unity.modules.unityanalytics@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unityanalytics)
+    com.unity.modules.unitywebrequest@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequest)
+    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestassetbundle)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestaudio)
+    com.unity.modules.unitywebrequesttexture@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequesttexture)
+    com.unity.modules.unitywebrequestwww@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestwww)
+    com.unity.modules.vectorgraphics@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vectorgraphics)
+    com.unity.modules.vehicles@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vehicles)
+    com.unity.modules.video@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.video)
+    com.unity.modules.vr@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vr)
+    com.unity.modules.wind@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.wind)
+    com.unity.modules.xr@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.xr)
+    com.unity.modules.subsystems@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.subsystems)
+    com.unity.modules.hierarchycore@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.hierarchycore)
+    com.unity.ext.nunit@2.0.5 (location: C:\Users\Bando\Documents\UnityProjects\liffe sim\Library\PackageCache\com.unity.ext.nunit@d8c07649098d)
+    com.unity.render-pipelines.core@17.3.0 (location: C:\Users\Bando\Documents\UnityProjects\liffe sim\Library\PackageCache\com.unity.render-pipelines.core@b5371ec5a8ac)
+    com.unity.shadergraph@17.3.0 (location: C:\Users\Bando\Documents\UnityProjects\liffe sim\Library\PackageCache\com.unity.shadergraph@3ea479829020)
+    com.unity.render-pipelines.universal-config@17.0.3 (location: C:\Users\Bando\Documents\UnityProjects\liffe sim\Library\PackageCache\com.unity.render-pipelines.universal-config@8dc1aab4af1d)
+[Subsystems] No new subsystems found in resolved package list.
+[Package Manager] Done registering packages in 0.03 seconds
+[ScriptCompilation] Requested script compilation because: Assetdatabase observed changes in script compilation related files
+info: Microsoft.Hosting.Lifetime[14]
+      Now listening on: http://localhost:80
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Production
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: C:\Users\Bando\Documents\UnityProjects\liffe sim\
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping application/grpc -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping application/grpc - - 200 - application/grpc 47.6414ms
+Starting: C:\Program Files\Unity\Hub\Editor\6000.3.3f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: C:/Users/Bando/Documents/UnityProjects/liffe sim
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/ConfigurePostProcessors application/grpc -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/ConfigurePostProcessors'
+warn: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Assembly system.runtime.interopservices.windowsruntime has duplicate hint path. Ignoring "C:\Program Files\Unity\Hub\Editor\6000.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.InteropServices.WindowsRuntime.dll" in favor of "C:\Program Files\Unity\Hub\Editor\6000.3.3f1\Editor\Data\NetStandard\Extensions\2.0.0\System.Runtime.InteropServices.WindowsRuntime.dll"
+warn: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Assembly system.componentmodel.composition has duplicate hint path. Ignoring "C:\Program Files\Unity\Hub\Editor\6000.3.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.ComponentModel.Composition.dll" in favor of "C:\Program Files\Unity\Hub\Editor\6000.3.3f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.ComponentModel.Composition.dll"
+DisplayProgressbar: Compiling Scripts
+info: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Resolved Unity.Burst.Cecil, Version=0.11.4.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e with Library\PackageCache\com.unity.burst@973857688024\Unity.Burst.CodeGen\Unity.Burst.Cecil.dll
+info: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Resolved Mono.Cecil, Version=0.11.5.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e with Library\PackageCache\com.unity.nuget.mono-cecil@ecb9724e46ff\Mono.Cecil.dll
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/ConfigurePostProcessors'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/ConfigurePostProcessors application/grpc - - 200 - application/grpc 82.0650ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/PostProcessAssembly application/grpc -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/PostProcessAssembly'
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      Processing assembly Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll, with 135 defines and 350 references
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      running Unity.Jobs.CodeGen.JobsILPostProcessor
+info: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Resolved Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null with Library\Bee\artifacts\1900b0aE.dag\Unity.Collections.dll
+info: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Resolved UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null with C:\Program Files\Unity\Hub\Editor\6000.3.3f1\Editor\Data\Managed\UnityEngine\UnityEditor.CoreModule.dll
+info: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Resolved UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null with C:\Program Files\Unity\Hub\Editor\6000.3.3f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      running zzzUnity.Burst.CodeGen.BurstILPostProcessor
+info: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Resolved Unity.Burst.Cecil.Rocks, Version=0.11.4.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e with Library\PackageCache\com.unity.burst@973857688024\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/PostProcessAssembly'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/PostProcessAssembly application/grpc - - 200 - application/grpc 468.5570ms
+ExitCode: 0 Duration: 1s154ms
+[ 811/1044  0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[1040/1044  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll (+2 others)
+[1041/1044  0s] ILPostProcess Library/Bee/artifacts/1900b0aE.dag/post-processed/Assembly-CSharp-Editor.dll (+pdb)
+Processing assembly Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll, with 135 defines and 350 references
+
+processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+
+running Unity.Jobs.CodeGen.JobsILPostProcessor
+
+running zzzUnity.Burst.CodeGen.BurstILPostProcessor
+[1042/1044  0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+[1043/1044  0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.pdb
+*** Tundra build success (1.11 seconds), 5 items updated, 1044 evaluated
+AssetDatabase: script compilation time: 1.745444s
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.349 seconds
+Refreshing native plugins compatible for Editor in 2.94 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  4.586 seconds
+Domain Reload Profiling: 5923ms
+	BeginReloadAssembly (380ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (14ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (160ms)
+	RebuildCommonClasses (52ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (54ms)
+	LoadAllAssembliesAndSetupDomain (833ms)
+		LoadAssemblies (620ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (354ms)
+			TypeCache.Refresh (255ms)
+				TypeCache.ScanAssembly (239ms)
+			BuildScriptInfoCaches (77ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (4587ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (4342ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (39ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (255ms)
+			ProcessInitializeOnLoadAttributes (3805ms)
+			ProcessInitializeOnLoadMethodAttributes (225ms)
+			AfterProcessingInitializeOnLoad (14ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Refreshing native plugins compatible for Editor in 2.55 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=8d7d4787d5254ca4bb2df9e02d394e3b): Total: 8.871 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=5296 ms
+		Asset DB Callback time: managed=315 ms, native=43 ms
+		Scripting: domain reloads=1, domain reload time=1350 ms, compile time=1748 ms, other=116 ms
+		Project Asset Count: scripts=1469, non-scripts=3086
+		Asset File Changes: new=0, changed=1, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokeCustomDependenciesCallbacks: 0.001ms
+	InvokePackagesCallback: 36.261ms
+	ApplyChangesToAssetFolders: 0.931ms
+	Scan: 202.117ms
+	OnSourceAssetsModified: 0.931ms
+	CategorizeAssetsWithTransientArtifact: 67.462ms
+	ProcessAssetsWithTransientArtifactChanges: 114.957ms
+	CategorizeAssets: 80.986ms
+	ImportOutOfDateAssets: 4604.056ms (2852.229ms without children)
+		CompileScripts: 1748.374ms
+		ReloadNativeAssets: 0.028ms
+		UnloadImportedAssets: 1.479ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 1.393ms
+		InitializingProgressBar: 0.000ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.001ms
+		OnDemandSchedulerStart: 0.553ms
+	PostProcessAllAssets: 318.382ms
+	Hotreload: 5.625ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.004ms
+	UnloadStreamsBegin: 3.960ms
+	PersistCurrentRevisions: 0.157ms
+	UnloadStreamsEnd: 0.002ms
+	GenerateScriptTypeHashes: 4.637ms
+	Untracked: 3435.118ms
+
+Application.AssetDatabase Initial Refresh End
+Scanning for USB devices : 2.593ms
+Initializing Unity extensions:
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-liffe sim
+Unloading 19 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6900 unused Assets / (3.6 MB). Loaded Objects now: 7731.
+Memory consumption went from 199.3 MB to 195.6 MB.
+Total: 14.712300 ms (FindLiveObjects: 0.974700 ms CreateObjectMapping: 1.404800 ms MarkObjects: 8.687600 ms  DeleteObjects: 3.643900 ms)
+
+[SimulationHarness] Run() invoked
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+SimulationHarness:Run () (at Assets/Editor/SimulationHarness.cs:37)
+
+(Filename: Assets/Editor/SimulationHarness.cs Line: 37)
+
+[SimulationHarness] isPlaying set true, waiting for play mode to engage
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+SimulationHarness:Run () (at Assets/Editor/SimulationHarness.cs:45)
+
+(Filename: Assets/Editor/SimulationHarness.cs Line: 45)
+
+Microsoft Media Foundation video decoding to texture disabled: graphics device is Null, only Direct3D 11 and Direct3D 12 (only on desktop) are supported for hardware-accelerated video decoding.
+[Project] Loading completed in 12.924 seconds
+	Project init time: 				12.365 seconds
+		Template init time: 		0.000 seconds
+		Package Manager init time: 		1.518 seconds
+		Asset Database init time: 		0.203 seconds
+		Global illumination init time: 	0.002 seconds
+		Assemblies load time: 			1.111 seconds
+		Unity extensions init time: 	0.011 seconds
+		Asset Database refresh time: 	8.871 seconds
+	Scene opening time: 			0.342 seconds
+##utp:{"type":"ProjectInfo","version":2,"phase":"Immediate","time":1784526235089,"processId":18124,"projectLoad":12.9239985,"projectInit":12.365111,"templateInit":0.0,"packageManagerInit":1.5183469,"assetDatabaseInit":0.2028598,"globalIlluminationInit":0.002347,"assembliesLoad":1.1105552,"unityExtensionsInit":0.0111732,"assetDatabaseRefresh":8.871138,"sceneOpening":0.3420407}
+##utp:{"type":"EditorInfo","version":2,"phase":"Immediate","time":1784526235089,"processId":18124,"editorVersion":"6000.3.3f1 (ef04196de0d6)","branch":"6000.3/staging","buildType":"Release","platform":"Windows"}
+Entering Playmode with Reload Domain disabled.
+If you experience any issues, please disable "Enter Play Mode Options" in Editor Settings
+Entering Playmode with Reload Scene disabled. If you experience any issues, please disable "Enter Play Mode Options" in Editor Settings
+Asset Pipeline Refresh (id=5d376954f053e434381fab0954a111a8): Total: 0.074 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+[SimulationHarness] Play mode confirmed, setting up scene
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+SimulationHarness:Tick () (at Assets/Editor/SimulationHarness.cs:60)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/SimulationHarness.cs Line: 60)
+
+[SimulationHarness] Scene setup complete: 12 creatures spawned
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+SimulationHarness:Tick () (at Assets/Editor/SimulationHarness.cs:62)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/SimulationHarness.cs Line: 62)
+
+[Indexing] Starting Initial Indexing for Assets
+Created GICache directory at C:/Users/Bando/AppData/LocalLow/Unity/Caches/GiCache. Took: 0.037s, timestamps: [13.304 - 13.341]
+Female_5 is now hungry (threshold 64.92789)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:159)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 159)
+
+Female_0 is now thirsty (threshold 64.7599)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:165)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 165)
+
+Female_0 spotted water, going to drink
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:177)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 177)
+
+[t=60s] population=12 avgFood=63.9 avgWater=63.9 avgAge=60.2 adults=0 matingReady=0 diedSoFar=0 bonds=0 births=0 mateAttempts=0
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+SimulationHarness:ReportInterval () (at Assets/Editor/SimulationHarness.cs:220)
+SimulationHarness:Tick () (at Assets/Editor/SimulationHarness.cs:69)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/SimulationHarness.cs Line: 220)
+
+Male_5 is now thirsty (threshold 61.84225)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:165)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 165)
+
+Female_1 is now hungry (threshold 61.15919)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:159)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 159)
+
+Male_4 is now thirsty (threshold 60.29548)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:165)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 165)
+
+Male_0 is now thirsty (threshold 59.40894)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:165)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 165)
+
+Female_3 is now thirsty (threshold 58.63269)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:165)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 165)
+
+Male_1 is now hungry (threshold 58.13993)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:159)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 159)
+
+Male_2 is now hungry (threshold 57.22252)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:159)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 159)
+
+Male_3 is now thirsty (threshold 54.14913)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:165)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 165)
+
+Female_4 is now thirsty (threshold 53.56624)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:165)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 165)
+
+Female_1 is now thirsty (threshold 53.47351)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:165)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 165)
+
+Female_5 is now thirsty (threshold 53.42006)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:165)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 165)
+
+Female_3 spotted water, going to drink
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:177)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 177)
+
+Female_4 spotted water, going to drink
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:177)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 177)
+
+Female_0 is now hungry (threshold 50.64127)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:159)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 159)
+
+Male_2 is now thirsty (threshold 49.57458)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:165)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 165)
+
+Male_1 is now thirsty (threshold 47.5826)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:165)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 165)
+
+Male_1 spotted water, going to drink
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:177)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 177)
+
+Male_2 spotted water, going to drink
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:177)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 177)
+
+Male_0 is now hungry (threshold 47.38799)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:159)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 159)
+
+Male_0 spotted water, going to drink
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:177)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 177)
+
+Male_3 is now hungry (threshold 44.93349)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:159)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 159)
+
+Female_2 is now thirsty (threshold 44.36186)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:165)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 165)
+
+Female_2 spotted water, going to drink
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:177)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 177)
+
+Female_5 spotted water, going to drink
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:177)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 177)
+
+Male_4 is now hungry (threshold 39.09336)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:159)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 159)
+
+Female_3 is now hungry (threshold 38.79055)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:159)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 159)
+
+Female_4 is now hungry (threshold 38.54996)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:159)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 159)
+
+Male_5 is now hungry (threshold 38.63392)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:159)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 159)
+
+Male_5 spotted water, going to drink
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:177)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 177)
+
+Female_2 is now hungry (threshold 41.61301)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:159)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 159)
+
+Male_4 spotted water, going to drink
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:177)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 177)
+
+[t=120s] population=12 avgFood=38.3 avgWater=76.8 avgAge=120.2 adults=12 matingReady=0 diedSoFar=0 bonds=0 births=0 mateAttempts=0
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+SimulationHarness:ReportInterval () (at Assets/Editor/SimulationHarness.cs:220)
+SimulationHarness:Tick () (at Assets/Editor/SimulationHarness.cs:69)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/SimulationHarness.cs Line: 220)
+
+Female_1 spotted water, going to drink
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:177)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 177)
+
+Female_0 is now hungry (threshold 50.64127)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:159)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 159)
+
+Female_0 is now thirsty (threshold 64.7599)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:165)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 165)
+
+Male_3 is now hungry (threshold 44.93349)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:159)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 159)
+
+Female_0 spotted water, going to drink
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:177)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 177)
+
+Female_5 is now hungry (threshold 64.92789)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:159)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 159)
+
+Female_5 bonded and is starting a family!
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:TryBondWithCandidate (CreatureReproduction) (at Assets/Scripts/CreatureWanderer.cs:226)
+CreatureWanderer/<>c__DisplayClass36_0:<UpdateSeekingMate>b__0 () (at Assets/Scripts/CreatureWanderer.cs:215)
+CreatureWanderer:MoveToward (UnityEngine.Vector2,System.Action) (at Assets/Scripts/CreatureWanderer.cs:138)
+CreatureWanderer:UpdateSeekingMate () (at Assets/Scripts/CreatureWanderer.cs:215)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:113)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 226)
+
+Female_3 is now hungry (threshold 38.79055)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:159)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 159)
+
+Female_4 is now hungry (threshold 38.54996)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:159)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 159)
+
+Female_1 is now hungry (threshold 61.15919)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:159)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 159)
+
+Male_2 is now hungry (threshold 57.22252)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:159)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 159)
+
+Male_3 spotted water, going to drink
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:177)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 177)
+
+Female_3 is now thirsty (threshold 58.63269)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:165)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 165)
+
+Female_1 bonded and is starting a family!
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:TryBondWithCandidate (CreatureReproduction) (at Assets/Scripts/CreatureWanderer.cs:226)
+CreatureWanderer/<>c__DisplayClass36_0:<UpdateSeekingMate>b__0 () (at Assets/Scripts/CreatureWanderer.cs:215)
+CreatureWanderer:MoveToward (UnityEngine.Vector2,System.Action) (at Assets/Scripts/CreatureWanderer.cs:138)
+CreatureWanderer:UpdateSeekingMate () (at Assets/Scripts/CreatureWanderer.cs:215)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:113)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 226)
+
+Male_0 is now thirsty (threshold 59.40894)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:165)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 165)
+
+Male_0 spotted water, going to drink
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:177)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 177)
+
+Female_4 is now thirsty (threshold 53.56624)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:165)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 165)
+
+Female_4 spotted water, going to drink
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:177)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 177)
+
+Male_0 is now hungry (threshold 47.38799)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:159)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 159)
+
+Male_5 is now thirsty (threshold 61.84225)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:165)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 165)
+
+Male_3 is now hungry (threshold 44.93349)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:159)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 159)
+
+[t=180s] population=14 avgFood=52.9 avgWater=70.8 avgAge=156.1 adults=12 matingReady=0 diedSoFar=0 bonds=4 births=2 mateAttempts=2
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+SimulationHarness:ReportInterval () (at Assets/Editor/SimulationHarness.cs:220)
+SimulationHarness:Tick () (at Assets/Editor/SimulationHarness.cs:69)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/SimulationHarness.cs Line: 220)
+
+Male_2 is now thirsty (threshold 49.57458)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:165)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 165)
+
+Female_2 is now hungry (threshold 41.61301)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:159)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 159)
+
+Male_4 is now thirsty (threshold 60.29548)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:165)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 165)
+
+Male_4 spotted water, going to drink
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:177)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 177)
+
+Female_5 is now thirsty (threshold 53.42006)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:165)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 165)
+
+Female_5 spotted water, going to drink
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:177)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 177)
+
+Male_1 is now thirsty (threshold 47.5826)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:165)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 165)
+
+Female_3 is now hungry (threshold 38.79055)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:159)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 159)
+
+Female_4 is now hungry (threshold 38.54996)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:159)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 159)
+
+Female_5 is now hungry (threshold 64.92789)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:159)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 159)
+
+Male_4 is now hungry (threshold 39.09336)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:159)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 159)
+
+Male_5 is now hungry (threshold 38.63392)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:159)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 159)
+
+Female_1 is now hungry (threshold 61.15919)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:159)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 159)
+
+Male_1 spotted water, going to drink
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:177)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 177)
+
+Female_3 spotted water, going to drink
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:177)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 177)
+
+Male_2 spotted water, going to drink
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:177)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 177)
+
+Male_1 is now hungry (threshold 58.13993)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:159)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 159)
+
+Female_2 is now thirsty (threshold 44.36186)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:165)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 165)
+
+Female_1 is now thirsty (threshold 53.47351)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:165)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 165)
+
+Female_2 spotted water, going to drink
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:177)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 177)
+
+Female_0 is now thirsty (threshold 64.7599)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:165)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 165)
+
+Female_0 is now hungry (threshold 50.64127)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:159)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 159)
+
+Female_1 spotted water, going to drink
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:177)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 177)
+
+Male_3 is now hungry (threshold 44.93349)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:159)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 159)
+
+Female_2 is now hungry (threshold 41.61301)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:159)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 159)
+
+Female_3 is now hungry (threshold 38.79055)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:159)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 159)
+
+Female_4 is now hungry (threshold 38.54996)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:159)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 159)
+
+Male_5 is now hungry (threshold 38.63392)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:159)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 159)
+
+Male_1 is now hungry (threshold 58.13993)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:159)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 159)
+
+Male_2 is now hungry (threshold 57.22252)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:159)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 159)
+
+Male_3 is now thirsty (threshold 54.14913)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:165)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 165)
+
+male(Clone) is now thirsty (threshold 51.34974)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:165)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 165)
+
+[t=240s] population=14 avgFood=41.9 avgWater=63.3 avgAge=216.1 adults=12 matingReady=0 diedSoFar=0 bonds=4 births=2 mateAttempts=2
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+SimulationHarness:ReportInterval () (at Assets/Editor/SimulationHarness.cs:220)
+SimulationHarness:Tick () (at Assets/Editor/SimulationHarness.cs:69)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/SimulationHarness.cs Line: 220)
+
+Male_0 is now thirsty (threshold 59.40894)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:165)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 165)
+
+Male_0 spotted water, going to drink
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:177)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 177)
+
+Male_3 spotted water, going to drink
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:177)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 177)
+
+Female_0 spotted water, going to drink
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:177)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 177)
+
+Male_4 is now thirsty (threshold 60.29548)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:165)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 165)
+
+Female_4 is now thirsty (threshold 53.56624)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:165)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 165)
+
+Female_0 is now hungry (threshold 50.64127)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:159)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 159)
+
+Male_3 is now hungry (threshold 44.93349)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:159)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 159)
+
+male(Clone) is now hungry (threshold 38.67463)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:159)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 159)
+
+male(Clone) is now hungry (threshold 49.50438)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:159)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 159)
+
+male(Clone) is now thirsty (threshold 49.48548)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:165)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 165)
+
+Female_5 is now thirsty (threshold 53.42006)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:165)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 165)
+
+Female_3 is now thirsty (threshold 58.63269)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:165)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 165)
+
+Female_5 is now hungry (threshold 64.92789)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:159)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 159)
+
+Female_4 is now hungry (threshold 38.54996)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:159)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 159)
+
+male(Clone) spotted water, going to drink
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:177)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 177)
+
+Male_5 spotted water, going to drink
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:177)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 177)
+
+Female_1 is now hungry (threshold 61.15919)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:159)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 159)
+
+Male_1 is now hungry (threshold 58.13993)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:159)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 159)
+
+Male_5 is now hungry (threshold 38.63392)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:159)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 159)
+
+Male_2 is now hungry (threshold 57.22252)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:159)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 159)
+
+Male_1 is now thirsty (threshold 47.5826)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:165)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 165)
+
+Male_2 is now thirsty (threshold 49.57458)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:165)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 165)
+
+Female_5 spotted water, going to drink
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:177)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 177)
+
+Female_1 is now thirsty (threshold 53.47351)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:165)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 165)
+
+Male_4 is now hungry (threshold 39.09336)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:159)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 159)
+
+Male_1 spotted water, going to drink
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:177)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 177)
+
+[t=300s] population=13 avgFood=43.5 avgWater=54.8 avgAge=274.3 adults=2 matingReady=0 diedSoFar=1 bonds=4 births=2 mateAttempts=2
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+SimulationHarness:ReportInterval () (at Assets/Editor/SimulationHarness.cs:220)
+SimulationHarness:Tick () (at Assets/Editor/SimulationHarness.cs:69)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/SimulationHarness.cs Line: 220)
+
+Male_3 is now hungry (threshold 44.93349)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:159)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 159)
+
+male(Clone) is now hungry (threshold 38.67463)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:159)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 159)
+
+Female_4 spotted water, going to drink
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:177)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 177)
+
+male(Clone) is now hungry (threshold 49.50438)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:159)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 159)
+
+Male_2 spotted water, going to drink
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:177)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 177)
+
+Female_1 spotted water, going to drink
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:177)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 177)
+
+Female_2 is now thirsty (threshold 44.36186)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:165)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 165)
+
+Female_4 is now hungry (threshold 38.54996)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:159)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 159)
+
+Female_0 is now thirsty (threshold 64.7599)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:165)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 165)
+
+Female_1 is now hungry (threshold 61.15919)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:159)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 159)
+
+Female_0 spotted water, going to drink
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:177)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 177)
+
+Male_4 spotted water, going to drink
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:177)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 177)
+
+Male_1 is now hungry (threshold 58.13993)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:159)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 159)
+
+Female_2 is now hungry (threshold 41.61301)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:159)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 159)
+
+Male_2 is now hungry (threshold 57.22252)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:159)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 159)
+
+Female_3 is now hungry (threshold 38.79055)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:159)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 159)
+
+Male_3 is now thirsty (threshold 54.14913)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:165)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 165)
+
+Female_3 spotted water, going to drink
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:177)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 177)
+
+Female_0 is now hungry (threshold 50.64127)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:159)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 159)
+
+Female_2 spotted water, going to drink
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:177)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 177)
+
+Male_3 is now hungry (threshold 44.93349)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:159)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 159)
+
+Male_5 is now thirsty (threshold 61.84225)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:165)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 165)
+
+male(Clone) is now hungry (threshold 38.67463)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:159)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 159)
+
+Female_5 is now hungry (threshold 64.92789)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:159)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 159)
+
+Female_1 is now hungry (threshold 61.15919)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:159)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 159)
+
+male(Clone) is now thirsty (threshold 51.34974)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:165)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 165)
+
+male(Clone) spotted water, going to drink
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:177)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 177)
+
+[t=360s] population=14 avgFood=37.1 avgWater=57.7 avgAge=310.4 adults=2 matingReady=0 diedSoFar=0 bonds=4 births=2 mateAttempts=2
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+SimulationHarness:ReportInterval () (at Assets/Editor/SimulationHarness.cs:220)
+SimulationHarness:Tick () (at Assets/Editor/SimulationHarness.cs:69)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/SimulationHarness.cs Line: 220)
+
+Male_1 is now hungry (threshold 58.13993)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:159)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 159)
+
+Female_2 is now hungry (threshold 41.61301)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:159)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 159)
+
+Male_2 is now hungry (threshold 57.22252)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:159)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 159)
+
+Female_5 is now thirsty (threshold 53.42006)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:165)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 165)
+
+Female_0 is now hungry (threshold 50.64127)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:159)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 159)
+
+Female_0 is now thirsty (threshold 64.7599)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:165)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 165)
+
+Female_0 spotted water, going to drink
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:177)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 177)
+
+Male_3 is now hungry (threshold 44.93349)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:159)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 159)
+
+male(Clone) is now hungry (threshold 38.67463)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:159)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 159)
+
+male(Clone) is now hungry (threshold 49.50438)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:159)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 159)
+
+Female_4 is now thirsty (threshold 53.56624)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:165)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 165)
+
+Male_4 is now thirsty (threshold 60.29548)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:165)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 165)
+
+Female_1 is now thirsty (threshold 53.47351)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:165)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 165)
+
+Male_4 is now hungry (threshold 39.09336)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:159)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 159)
+
+Male_1 is now thirsty (threshold 47.5826)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:165)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 165)
+
+Female_4 is now hungry (threshold 38.54996)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:159)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 159)
+
+Male_5 is now hungry (threshold 38.63392)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:159)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 159)
+
+Male_2 is now thirsty (threshold 49.57458)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:165)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 165)
+
+Female_1 is now hungry (threshold 61.15919)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:159)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 159)
+
+Male_1 spotted water, going to drink
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:177)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 177)
+
+Female_3 is now thirsty (threshold 58.63269)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:165)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 165)
+
+Male_2 is now hungry (threshold 57.22252)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:159)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 159)
+
+Female_4 spotted water, going to drink
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:177)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 177)
+
+Male_5 spotted water, going to drink
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:177)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 177)
+
+Female_3 is now hungry (threshold 38.79055)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:159)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 159)
+
+Female_0 is now hungry (threshold 50.64127)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:159)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 159)
+
+[t=420s] population=3 avgFood=14.3 avgWater=22.7 avgAge=87.3 adults=1 matingReady=0 diedSoFar=11 bonds=4 births=2 mateAttempts=2
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+SimulationHarness:ReportInterval () (at Assets/Editor/SimulationHarness.cs:220)
+SimulationHarness:Tick () (at Assets/Editor/SimulationHarness.cs:69)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/SimulationHarness.cs Line: 220)
+
+male(Clone) is now hungry (threshold 38.67463)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:159)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 159)
+
+male(Clone) is now thirsty (threshold 51.34974)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:165)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 165)
+
+male(Clone) spotted water, going to drink
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:177)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 177)
+
+[t=480s] population=14 avgFood=4.1 avgWater=6.0 avgAge=23.0 adults=0 matingReady=0 diedSoFar=0 bonds=4 births=2 mateAttempts=0
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+SimulationHarness:ReportInterval () (at Assets/Editor/SimulationHarness.cs:220)
+SimulationHarness:Tick () (at Assets/Editor/SimulationHarness.cs:69)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/SimulationHarness.cs Line: 220)
+
+male(Clone) is now hungry (threshold 38.67463)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:159)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 159)
+
+male(Clone) is now thirsty (threshold 51.34974)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:165)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 165)
+
+[t=540s] population=14 avgFood=3.3 avgWater=3.5 avgAge=27.3 adults=0 matingReady=0 diedSoFar=0 bonds=4 births=2 mateAttempts=0
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+SimulationHarness:ReportInterval () (at Assets/Editor/SimulationHarness.cs:220)
+SimulationHarness:Tick () (at Assets/Editor/SimulationHarness.cs:69)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/SimulationHarness.cs Line: 220)
+
+male(Clone) is now hungry (threshold 38.67463)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CreatureWanderer:ConsiderNeeds () (at Assets/Scripts/CreatureWanderer.cs:159)
+CreatureWanderer:Update () (at Assets/Scripts/CreatureWanderer.cs:69)
+
+(Filename: Assets/Scripts/CreatureWanderer.cs Line: 159)
+
+[t=600s] population=14 avgFood=0.0 avgWater=0.0 avgAge=0.0 adults=0 matingReady=0 diedSoFar=0 bonds=4 births=2 mateAttempts=0
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+SimulationHarness:ReportInterval () (at Assets/Editor/SimulationHarness.cs:220)
+SimulationHarness:Tick () (at Assets/Editor/SimulationHarness.cs:69)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/SimulationHarness.cs Line: 220)
+
+[t=600s] population=14 avgFood=0.0 avgWater=0.0 avgAge=0.0 adults=0 matingReady=0 diedSoFar=0 bonds=4 births=2 mateAttempts=0
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+SimulationHarness:ReportInterval () (at Assets/Editor/SimulationHarness.cs:220)
+SimulationHarness:ReportFinal (bool) (at Assets/Editor/SimulationHarness.cs:231)
+SimulationHarness:Tick () (at Assets/Editor/SimulationHarness.cs:78)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/SimulationHarness.cs Line: 220)
+
+=== FINAL SIMULATION RESULTS ===
+Simulated game-seconds elapsed: 600
+Total creatures tracked (starting parents + all births): 14
+Total births during run: 2
+Total mate-seek attempts: 0
+Total successful bonds: 4
+Died: 0 / 14
+Average lifespan of the dead (sim-seconds): n/a
+Reached Adult stage at some point: 0 / 14
+Death reason breakdown:
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+SimulationHarness:ReportFinal (bool) (at Assets/Editor/SimulationHarness.cs:281)
+SimulationHarness:Tick () (at Assets/Editor/SimulationHarness.cs:78)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/SimulationHarness.cs Line: 281)
+
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input System polling thread exited.
+Input System module state changed to: Shutdown.
+[Licensing::IpcConnector] LicenseClient-Bando-notifications channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-Bando channel disconnected successfully.
+AcceleratorClientConnectionCallback - disconnected - :0
+Cleanup mono
+abort_threads: Failed aborting id: 000000000000213C, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 0000000000005584, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 0000000000005470, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 000000000000213C, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 0000000000005584, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 0000000000005470, mono_thread_manage will ignore it
+
+debugger-agent: Unable to listen on 3384
+Checking for leaked weakptr:
+  Found no leaked weakptrs.
+[Package Manager] Server process was shutdown
+##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1784526267141,"processId":18124,"allocatedMemory":14891807,"memoryLabels":[{"Default":29313},{"Permanent":15524},{"NewDelete":68187},{"Thread":4230344},{"Manager":72533},{"VertexData":8},{"Geometry":816},{"Texture":296},{"Shader":79358},{"Material":24},{"GfxDevice":55257},{"Animation":392},{"Audio":2664},{"FontEngine":256},{"Physics":2090},{"Physics2D":16},{"Serialization":592},{"Input":14984},{"JobScheduler":33024},{"TextLib":192},{"Mono":32},{"MonoCode":64},{"ScriptingNativeRuntime":155060},{"BaseObject":1620272},{"Resource":1336},{"Renderer":3000},{"Transform":4685},{"File":1016},{"WebCam":616},{"Culling":32},{"Terrain":11394},{"Wind":24},{"STL":40},{"String":19528},{"DynamicArray":112111},{"HashMap":78861},{"Utility":2660134},{"Curl":2559},{"PoolAlloc":2152},{"AI":40},{"TypeTree":5341},{"ScriptManager":512},{"RuntimeInitializeOnLoadManager":64},{"SpriteAtlas":112},{"GI":7792},{"Director":8240},{"CloudService":9072},{"WebRequest":808},{"VR":47994},{"SceneManager":504},{"Video":64},{"LazyScriptCache":32},{"Camera":17},{"Secure":2113},{"SerializationCache":1576},{"APIUpdating":10320},{"Subsystems":336},{"VirtualTexturing":57888},{"StaticSafetyDebugInfo":278528},{"Analytics":384},{"Hierarchy":608},{"CoreStats":13032},{"Identifiers":12960},{"Gui":88},{"EditorUtility":109077},{"VersionControl":4},{"Undo":947},{"AssetDatabase":4999519},{"EditorGi":328},{"UnityConnect":29232},{"Upm":1896},{"AssetCompliance":64},{"DrivenProperties":72},{"LocalIPC":211},{"ProfilerEditor":9746},{"CoreBusinessMetrics":2876},{"Licensing":664},{"AssetReference":32},{"IPCStream":32}]}

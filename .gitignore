@@ -34,3 +34,6 @@ Thumbs.db
 # Asset meta backups
 *.tmp
 crashlytics-build.properties
+
+# Batch-mode test logs
+*.log

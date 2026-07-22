@@ -3,7 +3,7 @@ using UnityEngine;
 public class CreatureStats : MonoBehaviour
 {
     [SerializeField] private float maxStat = 100f;
-    [SerializeField] private float decayPerSecond = 1f;
+    [SerializeField] private float decayPerSecond = 0.6f;
 
     [Header("Hunger Behavior")]
     [SerializeField] private float minHungerThreshold = 35f;
@@ -21,8 +21,11 @@ public class CreatureStats : MonoBehaviour
     public bool IsHungry => Food < HungerThreshold;
     public bool IsThirsty => Water < ThirstThreshold;
 
+    private CreatureGenetics genetics;
+
     private void Start()
     {
+        genetics = GetComponent<CreatureGenetics>();
         Food = maxStat;
         Water = maxStat;
         HungerThreshold = Random.Range(minHungerThreshold, maxHungerThreshold);
@@ -31,8 +34,11 @@ public class CreatureStats : MonoBehaviour
 
     private void Update()
     {
-        Food = Mathf.Clamp(Food - decayPerSecond * Time.deltaTime, 0f, maxStat);
-        Water = Mathf.Clamp(Water - decayPerSecond * Time.deltaTime, 0f, maxStat);
+        float hungerEfficiency = genetics != null ? Mathf.Max(0.1f, genetics.HungerEfficiency) : 1f;
+        float thirstEfficiency = genetics != null ? Mathf.Max(0.1f, genetics.ThirstEfficiency) : 1f;
+
+        Food = Mathf.Clamp(Food - (decayPerSecond / hungerEfficiency) * Time.deltaTime, 0f, maxStat);
+        Water = Mathf.Clamp(Water - (decayPerSecond / thirstEfficiency) * Time.deltaTime, 0f, maxStat);
     }
 
     public void AddFood(float amount)

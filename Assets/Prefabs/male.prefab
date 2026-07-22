@@ -19,6 +19,10 @@ GameObject:
   - component: {fileID: -5437864043514946132}
   - component: {fileID: 7731508777654764103}
   - component: {fileID: 4054558841600827929}
+  - component: {fileID: 1761190344299363408}
+  - component: {fileID: 7713896220396719778}
+  - component: {fileID: -2115169845367543117}
+  - component: {fileID: -4968654255389872103}
   m_Layer: 0
   m_Name: male
   m_TagString: Untagged
@@ -138,7 +142,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05f9f40b4ef423a479c1a3ae11b98820, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CreatureVision
-  visionRadius: 4
+  visionRadius: 10
 --- !u!114 &1017836306083115977
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -152,11 +156,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CreatureStats
   maxStat: 100
-  decayPerSecond: 1
+  decayPerSecond: 0.4
   minHungerThreshold: 35
-  maxHungerThreshold: 65
+  maxHungerThreshold: 75
   minThirstThreshold: 35
-  maxThirstThreshold: 65
+  maxThirstThreshold: 75
 --- !u!58 &2000199703197379304
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -231,9 +235,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CreatureReproduction
   gender: 0
-  contentThreshold: 75
+  contentThreshold: 70
   gestationTime: 15
   babyPrefab: {fileID: 1534733432164728519, guid: 73f503cb839c41341827a838ee8bc3a9, type: 3}
+  birthFoodCost: 25
+  birthWaterCost: 25
 --- !u!114 &7731508777654764103
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -247,9 +253,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CreatureHealth
   maxHealth: 100
-  starvationDamagePerSecond: 3
-  dehydrationDamagePerSecond: 3
+  starvationDamagePerSecond: 2
+  dehydrationDamagePerSecond: 2
   corpseColor: {r: 0.4, g: 0.4, b: 0.4, a: 1}
+  corpseLifetime: 10
 --- !u!114 &4054558841600827929
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -266,7 +273,64 @@ MonoBehaviour:
   juvenileDuration: 60
   adultDuration: 210
   oldDuration: 120
-  childSizeMultiplier: 0.5
+  childSizeMultiplier: 1
   childSpeedMultiplier: 0.5
   babySprite: {fileID: 2515062514259676352, guid: cf15829addd4f5b4da150333555bcf0d, type: 3}
   oldSprite: {fileID: 6005015784509221652, guid: c8d4beb33d9dcab4ca3674769c70a8d3, type: 3}
+--- !u!114 &1761190344299363408
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 832241300474410686}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9571aa814c3cb9645bdd48d2e581fc9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CreatureIdentity
+--- !u!114 &7713896220396719778
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 832241300474410686}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf8cf0d7a7eb1f743b708b48357c9cf2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CreatureHistory
+--- !u!114 &-2115169845367543117
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 832241300474410686}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06fceab33bdf9334da8507837eeeac0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CreatureGenetics
+  VisionRange: 0
+  MovementSpeed: 0
+  HungerEfficiency: 0
+  ThirstEfficiency: 0
+  Health: 0
+  Aggression: 0
+  Curiosity: 0
+  SocialTendency: 0
+  mutationAmount: 0.08
+--- !u!114 &-4968654255389872103
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 832241300474410686}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53a9f68fe0d181b4e88e960daa3ce8dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CreatureFamily

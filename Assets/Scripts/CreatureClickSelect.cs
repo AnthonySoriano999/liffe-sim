@@ -5,12 +5,10 @@ using UnityEngine.InputSystem;
 [RequireComponent(typeof(Collider2D))]
 public class CreatureClickSelect : MonoBehaviour
 {
-    private CreatureStats stats;
     private Collider2D col;
 
     private void Awake()
     {
-        stats = GetComponent<CreatureStats>();
         col = GetComponent<Collider2D>();
     }
 
@@ -26,7 +24,7 @@ public class CreatureClickSelect : MonoBehaviour
 
         if (col.OverlapPoint(worldPos))
         {
-            CreatureStatsPanel.Instance.ShowCreature(stats);
+            CreatureStatsPanel.Instance.ShowCreature(gameObject);
         }
     }
 }

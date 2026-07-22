@@ -28,10 +28,14 @@ public class CreatureWanderer : MonoBehaviour
     [SerializeField] private float seekMateHungerExitThreshold = 60f;
     [SerializeField] private float seekMateTimeout = 20f;
 
-    private enum State { Idle, Wandering, SeekingFood, SeekingWater, SeekingMate, FollowingParent }
+    private enum State { Idle, Wandering, SeekingFood, SeekingWater, SeekingMate, FollowingParent, RecallingFood, RecallingWater }
+
+    public enum TargetKind { None, Seeing, Remembering, FollowingParent }
 
     private State currentState;
+    private State previousState;
     private Vector2 targetPosition;
+    private Vector2 recallTargetPosition;
     private WorldEntity targetFood;
     private WorldEntity targetWater;
     private float idleTimer;
@@ -43,6 +47,17 @@ public class CreatureWanderer : MonoBehaviour
     private CreatureStats stats;
     private CreatureReproduction reproduction;
     private CreatureAge age;
+    private CreatureMemory memory;
+    private CreatureHistory history;
+    private CreatureGenetics genetics;
+    private CreatureIdentity identity;
+    private CreatureReproduction lastLoggedMateTarget;
+
+    private float EffectiveMoveSpeed => genetics != null ? genetics.MovementSpeed : moveSpeed;
+
+    public TargetKind CurrentTargetKind { get; private set; }
+    public Vector2 CurrentTargetPosition { get; private set; }
+    public string GoalLabel => GoalLabelFor(currentState);
 
     private void Start()
     {
@@ -51,7 +66,12 @@ public class CreatureWanderer : MonoBehaviour
         stats = GetComponent<CreatureStats>();
         reproduction = GetComponent<CreatureReproduction>();
         age = GetComponent<CreatureAge>();
+        memory = GetComponent<CreatureMemory>();
+        history = GetComponent<CreatureHistory>();
+        genetics = GetComponent<CreatureGenetics>();
+        identity = GetComponent<CreatureIdentity>();
         EnterIdle();
+        previousState = currentState;
     }
 
     public void SetSizeMultiplier(float multiplier)
@@ -122,16 +142,89 @@ public class CreatureWanderer : MonoBehaviour
 
                 MoveToward(age.Parent.position, EnterIdle);
                 break;
+
+            case State.RecallingFood:
+                MoveToward(recallTargetPosition, OnArriveRecallFood);
+                break;
+
+            case State.RecallingWater:
+                MoveToward(recallTargetPosition, OnArriveRecallWater);
+                break;
+        }
+
+        UpdateTargetInfo();
+
+        if (currentState != previousState)
+        {
+            string name = identity != null ? identity.Name : gameObject.name;
+            Debug.Log(name + ": Goal changed: " + GoalLabelFor(previousState) + " -> " + GoalLabelFor(currentState));
+            previousState = currentState;
         }
 
         AnimateScale();
     }
 
+    private void UpdateTargetInfo()
+    {
+        switch (currentState)
+        {
+            case State.SeekingFood:
+                CurrentTargetKind = targetFood != null ? TargetKind.Seeing : TargetKind.None;
+                CurrentTargetPosition = targetFood != null ? (Vector2)targetFood.transform.position : Vector2.zero;
+                break;
+
+            case State.SeekingWater:
+                CurrentTargetKind = targetWater != null ? TargetKind.Seeing : TargetKind.None;
+                CurrentTargetPosition = targetWater != null ? (Vector2)targetWater.transform.position : Vector2.zero;
+                break;
+
+            case State.RecallingFood:
+            case State.RecallingWater:
+                CurrentTargetKind = TargetKind.Remembering;
+                CurrentTargetPosition = recallTargetPosition;
+                break;
+
+            case State.FollowingParent:
+                bool hasParent = age != null && age.Parent != null;
+                CurrentTargetKind = hasParent ? TargetKind.FollowingParent : TargetKind.None;
+                CurrentTargetPosition = hasParent ? (Vector2)age.Parent.position : Vector2.zero;
+                break;
+
+            case State.SeekingMate:
+                WorldEntity candidate = vision != null ? vision.NearestMate : null;
+                CurrentTargetKind = candidate != null ? TargetKind.Seeing : TargetKind.None;
+                CurrentTargetPosition = candidate != null ? (Vector2)candidate.transform.position : Vector2.zero;
+                break;
+
+            default:
+                CurrentTargetKind = TargetKind.None;
+                break;
+        }
+    }
+
+    private string GoalLabelFor(State state)
+    {
+        switch (state)
+        {
+            case State.Idle: return "Idle";
+            case State.Wandering: return "Wandering";
+            case State.SeekingFood: return "Searching food";
+            case State.SeekingWater: return "Going to water";
+            case State.SeekingMate: return "Seeking mate";
+            case State.FollowingParent: return "Following parent";
+            case State.RecallingFood: return "Returning to memory (food)";
+            case State.RecallingWater: return "Returning to memory (water)";
+            default: return "Unknown";
+        }
+    }
+
     private void MoveToward(Vector2 destination, System.Action onArrive)
     {
         Vector2 currentPos = transform.position;
-        Vector2 newPos = Vector2.MoveTowards(currentPos, destination, moveSpeed * speedMultiplier * Time.deltaTime);
+        Vector2 newPos = Vector2.MoveTowards(currentPos, destination, EffectiveMoveSpeed * speedMultiplier * Time.deltaTime);
         transform.position = newPos;
+
+        history?.ReportDistance(Vector2.Distance(currentPos, newPos));
 
         if (Vector2.Distance(newPos, destination) <= arriveThreshold)
         {
@@ -166,17 +259,35 @@ public class CreatureWanderer : MonoBehaviour
         }
         wasThirsty = stats.IsThirsty;
 
-        if (stats.IsHungry && vision.NearestFood != null)
+        if (stats.IsHungry)
         {
-            EnterSeekFood(vision.NearestFood);
-            return;
+            if (vision.NearestFood != null)
+            {
+                EnterSeekFood(vision.NearestFood);
+                return;
+            }
+
+            if (memory != null && memory.TryRecall(MemoryType.Food, out Vector2 rememberedFood))
+            {
+                EnterRecallFood(rememberedFood);
+                return;
+            }
         }
 
-        if (stats.IsThirsty && vision.NearestWater != null)
+        if (stats.IsThirsty)
         {
-            Debug.Log(gameObject.name + " spotted water, going to drink");
-            EnterSeekWater(vision.NearestWater);
-            return;
+            if (vision.NearestWater != null)
+            {
+                Debug.Log(gameObject.name + " spotted water, going to drink");
+                EnterSeekWater(vision.NearestWater);
+                return;
+            }
+
+            if (memory != null && memory.TryRecall(MemoryType.Water, out Vector2 rememberedWater))
+            {
+                EnterRecallWater(rememberedWater);
+                return;
+            }
         }
 
         bool isAdult = age == null || age.CurrentStage == CreatureAge.Stage.Adult;
@@ -212,11 +323,27 @@ public class CreatureWanderer : MonoBehaviour
 
         if (candidateReproduction != null && candidateReproduction.IsAvailableToMate)
         {
+            if (candidateReproduction != lastLoggedMateTarget)
+            {
+                LogMateTarget(candidateReproduction, candidate.transform.position);
+                lastLoggedMateTarget = candidateReproduction;
+            }
+
             MoveToward(candidate.transform.position, () => TryBondWithCandidate(candidateReproduction));
             return;
         }
 
         MoveToward(targetPosition, PickNewMateSearchPoint);
+    }
+
+    private void LogMateTarget(CreatureReproduction candidateReproduction, Vector2 candidatePos)
+    {
+        string selfName = identity != null ? identity.Name : gameObject.name;
+        CreatureIdentity candidateIdentity = candidateReproduction.GetComponent<CreatureIdentity>();
+        string targetName = candidateIdentity != null ? candidateIdentity.Name : "unknown";
+        float distance = Vector2.Distance(transform.position, candidatePos);
+
+        Debug.Log(selfName + ": Searching Mate\nTarget: " + targetName + "\nDistance: " + distance.ToString("F1"));
     }
 
     private void TryBondWithCandidate(CreatureReproduction candidateReproduction)
@@ -258,7 +385,28 @@ public class CreatureWanderer : MonoBehaviour
     private void EnterWander()
     {
         currentState = State.Wandering;
-        targetPosition = GetRandomPointInBounds();
+        targetPosition = GetWanderTarget();
+    }
+
+    private Vector2 GetWanderTarget()
+    {
+        if (genetics == null)
+        {
+            return GetRandomPointInBounds();
+        }
+
+        float maxExtent = Mathf.Max(worldSize.x, worldSize.y);
+        float explorationRadius = Mathf.Lerp(maxExtent * 0.15f, maxExtent * 0.9f, genetics.Curiosity);
+
+        Vector2 offset = Random.insideUnitCircle * explorationRadius;
+        Vector2 target = (Vector2)transform.position + offset;
+
+        float halfWidth = worldSize.x * 0.5f;
+        float halfHeight = worldSize.y * 0.5f;
+        target.x = Mathf.Clamp(target.x, worldCenter.x - halfWidth, worldCenter.x + halfWidth);
+        target.y = Mathf.Clamp(target.y, worldCenter.y - halfHeight, worldCenter.y + halfHeight);
+
+        return target;
     }
 
     private void EnterSeekFood(WorldEntity food)
@@ -269,14 +417,26 @@ public class CreatureWanderer : MonoBehaviour
 
     private void EatTargetFood()
     {
+        Vector2 eatPosition = targetFood.transform.position;
         Food food = targetFood.GetComponent<Food>();
         if (food != null && stats != null)
         {
             float nutrition = food.Consume();
             stats.AddFood(nutrition);
+            history?.ReportFoodConsumed(nutrition);
         }
 
+        memory?.Record(MemoryType.Food, eatPosition);
+
         targetFood = null;
+
+        bool stillHungry = stats != null && stats.Food < stats.MaxStat;
+        if (stillHungry && vision != null && vision.NearestFood != null)
+        {
+            EnterSeekFood(vision.NearestFood);
+            return;
+        }
+
         EnterIdle();
     }
 
@@ -286,23 +446,67 @@ public class CreatureWanderer : MonoBehaviour
         targetWater = water;
     }
 
+    public int MateSeekAttempts { get; private set; }
+
     private void EnterSeekMate()
     {
         currentState = State.SeekingMate;
-        seekMateTimer = seekMateTimeout;
+        float socialMultiplier = genetics != null ? Mathf.Lerp(0.6f, 1.4f, genetics.SocialTendency) : 1f;
+        seekMateTimer = seekMateTimeout * socialMultiplier;
         targetPosition = GetRandomPointInBounds();
+        MateSeekAttempts++;
     }
 
     private void DrinkTargetWater()
     {
+        Vector2 drinkPosition = targetWater.transform.position;
         Water water = targetWater.GetComponent<Water>();
         if (water != null && stats != null)
         {
             float amount = water.Drink();
             stats.AddWater(amount);
+            history?.ReportWaterConsumed(amount);
         }
 
+        memory?.Record(MemoryType.Water, drinkPosition);
+
         targetWater = null;
+        EnterIdle();
+    }
+
+    private void EnterRecallFood(Vector2 position)
+    {
+        currentState = State.RecallingFood;
+        recallTargetPosition = position;
+    }
+
+    private void EnterRecallWater(Vector2 position)
+    {
+        currentState = State.RecallingWater;
+        recallTargetPosition = position;
+    }
+
+    private void OnArriveRecallFood()
+    {
+        if (vision != null && vision.NearestFood != null)
+        {
+            EnterSeekFood(vision.NearestFood);
+            return;
+        }
+
+        memory?.Weaken(MemoryType.Food, recallTargetPosition);
+        EnterIdle();
+    }
+
+    private void OnArriveRecallWater()
+    {
+        if (vision != null && vision.NearestWater != null)
+        {
+            EnterSeekWater(vision.NearestWater);
+            return;
+        }
+
+        memory?.Weaken(MemoryType.Water, recallTargetPosition);
         EnterIdle();
     }
 
